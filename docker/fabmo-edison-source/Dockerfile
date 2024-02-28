@@ -22,7 +22,9 @@ ENV YOCTO=iot-devkit-yp-poky-edison-20160606
 #ADD auto.conf  /home/edison/build_edison/conf/auto.conf
 #ADD edison-image.bb       /home/edison/poky/meta-intel-edison/meta-intel-edison-distro/recipes-core/images/edison-image.bb
 #ADD edison-image.bbappend /home/edison/poky/meta-intel-iot-devkit/recipes-core/images/edison-image.bbappend
-RUN git clone http://github.com/fabmo/fabmo-edison-image /home/edison/fabmo-edison-image
+##RUN git clone http://github.com/fabmo/fabmo-edison-image /home/edison/fabmo-edison-image
+RUN git clone https://github.com/sm-clark/FabMo-Edison-Image.git /home/edison/fabmo-edison-image
+
 USER root
 RUN chown -R edison.edison /home/edison/
 USER edison
