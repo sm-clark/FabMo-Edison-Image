@@ -4,7 +4,6 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=94411054a7f6921218ab9c05b6b4b15b"
 PV = "0.0.1"
 
 SRCREV = "${AUTOREV}"
-##SRC_URI = "git://github.com/shumatech/BOSSA.git;protocol=git;branch=arduino"
 SRC_URI = "https://github.com/shumatech/BOSSA.git;protocol=git;branch=arduino"
 
 DEPENDS = "readline"
