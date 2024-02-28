@@ -48,7 +48,7 @@ edison-src/meta-openembedded: | edison-src
 
 edison-src/meta-nodejs: | edison-src
 	cd edison-src; \
-	git clone git://github.com/imyller/meta-nodejs.git
+	git clone https://github.com/imyller/meta-nodejs.git
 
 edison-src/FabMo-Edison-Image: | edison-src
 	cd edison-src; \
