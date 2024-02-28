@@ -16,7 +16,7 @@ SRCREV = "d7f91849723b1f5203c11babe865594ac4b485c3"
 #           file://aufs-util-don-t-strip-executables.patch 
 #           file://aufs-util-add-tool-concept-to-Makefile-for-cross-com.patch 
 
-SRC_URI = "git://git.code.sf.net/p/aufs/aufs-util;protocol=git;branch=aufs3.2 \
+SRC_URI = "https://github.com/Lax/aufs-util.git;protocol=git;branch=aufs3.2 \
            file://aufs_type.h \
            file://aufs-utils-3.2.patch \
 "
